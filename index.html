@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> advisor </title>
+    <link rel="icon" type="image/x-icon" href="img/fav.svg">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.svg" alt="">
+            <!-- <div class="dropdown">
+                <img class="icon me-2" src="img/language.svg" alt="">
+                اللغة
+                <div class="dropdown-content">
+                    <a href="#!" class="dropdownItem">
+                        <img src="img/flag.svg" alt="">
+                        عربي
+                    </a>
+                    <a href="#!" class="dropdownItem">
+                        <img src="img/en_flag.svg" alt="">
+                        English
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </header>
+    <content class="container">
+        <!-- main section -->
+        <section class="mainSection"
+            style="background: linear-gradient(-45deg, #07B1FC75, #0680b5cf), url(img/main.jpg)">
+            <h1 data-aos="fade-down"> موقعك الاول للتواصل الاجتماعي بجميع المميزات </h1>
+            <a href="#download" class="btn"> حمل التطبيق الآن <img src="img/download.svg" alt=""> </a>
+        </section>
+        <!-- appImgs -->
+        <section class="appImgs">
+            <div class="sectionTitle" >
+                <h1> صور التطبيق </h1>
+                <!-- siper conrtol -->
+                <div class="swiperBtns">
+                    <div class="appSliderPrev swiper-button-prev"></div>
+                    <div class="appSliderNext swiper-button-next"></div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper phoneImgs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/1.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/2.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/3.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/4.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/5.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/6.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/7.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/8.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/9.png"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/10.png"/>
+                    </div>
+                
+                </div>
+                <img src="img/frame.png" class="frame" alt="">
+            </div>
+        </section>
+        <!-- download -->
+        <section class="download" id="download">
+            <div class="data">
+                <h1 data-aos="fade-down"> تطبيق الجوال </h1>
+                <p data-aos="fade-down"> حمل التطبيق على جوالك بضغطة زر </p>
+                <div class="links">
+                    <a href="#!">
+                        <img src="img/app-store.avif" alt="" data-aos="fade-down" >
+                    </a>
+                    <a href="#!">
+                        <img src="img/google-play.avif" alt="" data-aos="fade-down">
+                    </a>
+                </div>
+            </div>
+            <img class="mobileImg" src="img/info.png" alt="">
+        </section>
+        <!-- contact us -->
+        <section class="contactUs">
+            <!-- contactInfo -->
+            <div class="contactInfo">
+                <!-- Section Title -->
+                <div class="sectionIcon" data-aos="fade-down">
+                    <img src="img/contact.svg" alt="">
+                </div>
+                <div class="title">
+                    <h1 data-aos="fade-down"> تواصل معنا </h1>
+                    <p data-aos="fade-down"> كن علي اتصال دائم بنا ... </p>
+                </div>
+                <!-- info -->
+                <div class="info" data-aos="fade-down">
+                    <h6> العنوان </h6>
+                    <p> السعودية - الرياض </p>
+                </div>
+                <!-- info -->
+                <div class="info" data-aos="fade-down">
+                    <h6> البريد الالكتروني </h6>
+                    <a href="mailto:mail@mail.com">mail@mail.com</a>
+                </div>
+                <!-- info -->
+                <div class="info" data-aos="fade-down">
+                    <h6> رقم الجوال </h6>
+                    <a href="tel:+9960000000"> +9960000000 </a>
+                </div>
+            </div>
+            <!-- form -->
+            <form action="" data-aos="fade-down">
+                <div class="inputGroup">
+                    <div class="inputField">
+                        <label class="form-label"> الاسم كامل </label>
+                        <input type="text" class="inputForm">
+                    </div>
+                    <div class="inputField">
+                        <label class="form-label"> البريد الالكتروني </label>
+                        <input type="email" class="inputForm">
+                    </div>
+                </div>
+                <div class="inputField">
+                    <label class="form-label"> اكتب رسالتك </label>
+                    <textarea class="inputForm" rows="8"></textarea>
+                </div>
+                <button type="submit" class="btn"> ارسال <img src="img/send.svg" alt=""> </button>
+            </form>
+        </section>
+
+    </content>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="data">
+                كل الحقوق محفوظة
+                <a class="company" href="#!" target="_blank"> advisor </a>
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+            </div>
+            <div class="links">
+                <a href="#!" target="_blank">
+                    الشروط والأحكام
+                </a>
+                <a href="#!" target="_blank">
+                    سياسة الخصوصية
+                </a>
+            </div>
+            <ul class="social">
+                <li>
+                    <a href="#!" target="_blank">
+                        <img class="icon" src="img/face.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#!" target="_blank">
+                        <img class="icon" src="img/insta.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#!" target="_blank">
+                        <img class="icon" src="img/twitter.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ///////////////////////\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        // phone images
+        var phoneImgs = new Swiper(".phoneImgs", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            spaceBetween: 60,
+            speed: 1000,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 5,
+                stretch: 10,
+                depth: 200,
+                modifier: 1.2,
+                slideShadows: true,
+            },
+            navigation: {
+                nextEl: ".appSliderNext",
+                prevEl: ".appSliderPrev",
+            },
+        });
+
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // aos
+        AOS.init({
+            offset: 60,
+            delay: 50,
+            duration: 700,
+            // easing: "linear",
+            once: true,
+        });
+        //aos Delay
+        function aosDelay() {
+            var class_ = "mainSection";
+            $("section").each(function (i) {
+                class_ = $(this).attr("class");
+                $("." + class_ + " div[data-aos]").each(function (i) {
+                    var d = 0;
+                    d = i * 100;
+                    $(this).attr("data-aos-delay", d);
+                    d = 0;
+                });
+            });
+        }
+        aosDelay();
+
+    </script>
+
+</body>
+
+</html>
