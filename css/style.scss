@@ -1,5 +1,5 @@
-$mainColor: #07B1FC;
-$secondColor: #0680b5;
+$mainColor: #CAA56E;
+$secondColor: #124376;
 $gold: #ffd700;
 $white-color: #ffffff;
 $black-color: #434340;
@@ -197,7 +197,7 @@ header {
   background-color: $mainColor;
   color: $white-color;
   border-radius: 8px;
-  box-shadow: 0px 6px 0px #0680b5;
+  box-shadow: 0px 6px 0px #b68c4d;
   transition: $transition;
   display: inline-flex;
   align-items: center;
@@ -245,7 +245,7 @@ header {
     bottom: -50px;
     left: 50%;
     z-index: -1;
-    background-color: #07B1FC90;
+    background-color: #CAA56E90;
     width: 95%;
     height: 200px;
     border-radius: 100%;
@@ -321,7 +321,7 @@ header {
   }
 }
 footer {
-  background-color: #07B1FC20;
+  background-color: #CAA56E20;
   margin-top: 16px;
   .container {
     display: flex;
@@ -349,7 +349,7 @@ footer {
       justify-content: center;
       // border: 1px solid $mainColor;
       border-radius: 100px;
-      background-color: #07B1FC10;
+      background-color: #CAA56E10;
       margin: 2px;
       transition: $transition;
       &:hover {
@@ -469,11 +469,11 @@ footer {
       background-position: center;
       background-size: cover;
       width: 234px;
-      height: 507px;
+      height: 525px;
       position: relative;
       @media (max-width: 768px) {
         width: 175.5px;
-        height: 380px;
+        height: 395px;
       }
       // &::after{
       //   content: "";
@@ -594,7 +594,7 @@ footer {
     flex-direction: column;
     gap: 12px;
     .info {
-      background-color: #07B1FC20;
+      background-color: #CAA56E20;
       padding: 20px;
       border-radius: 12px;
       position: relative;
@@ -661,7 +661,7 @@ textarea.inputForm {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  background-color: #07B1FC30;
+  background-color: #CAA56E30;
   display: flex;
   align-items: center;
   justify-content: center;

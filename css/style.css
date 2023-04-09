@@ -43,7 +43,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #07B1FC;
+  color: #CAA56E;
 }
 
 button:focus {
@@ -104,7 +104,7 @@ content {
 }
 
 input {
-  accent-color: #07B1FC;
+  accent-color: #CAA56E;
 }
 
 .dropdown {
@@ -195,10 +195,10 @@ header .container {
 .btn {
   padding: 12px 32px;
   border: none;
-  background-color: #07B1FC;
+  background-color: #CAA56E;
   color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0px 6px 0px #0680b5;
+  box-shadow: 0px 6px 0px #b68c4d;
   transition: all 0.3s ease-in-out;
   display: inline-flex;
   align-items: center;
@@ -238,7 +238,7 @@ header .container {
   text-align: center;
   line-height: 44px;
   font-size: 32px !important;
-  text-shadow: -2px 3px 0px #0680b5;
+  text-shadow: -2px 3px 0px #124376;
 }
 @media (max-width: 768px) {
   .mainSection h1 {
@@ -251,7 +251,7 @@ header .container {
   bottom: -50px;
   left: 50%;
   z-index: -1;
-  background-color: rgba(7, 177, 252, 0.5647058824);
+  background-color: rgba(202, 165, 110, 0.5647058824);
   width: 95%;
   height: 200px;
   border-radius: 100%;
@@ -337,7 +337,7 @@ header .container {
 }
 
 footer {
-  background-color: rgba(7, 177, 252, 0.1254901961);
+  background-color: rgba(202, 165, 110, 0.1254901961);
   margin-top: 16px;
 }
 footer .container {
@@ -354,7 +354,7 @@ footer .container {
 }
 footer .company {
   margin: 0 5px;
-  color: #07B1FC;
+  color: #CAA56E;
 }
 footer .social {
   padding: 0;
@@ -368,7 +368,7 @@ footer .social li {
   align-items: center;
   justify-content: center;
   border-radius: 100px;
-  background-color: rgba(7, 177, 252, 0.062745098);
+  background-color: rgba(202, 165, 110, 0.062745098);
   margin: 2px;
   transition: all 0.3s ease-in-out;
 }
@@ -394,7 +394,7 @@ footer .links a {
   color: #434340;
 }
 footer .links a:hover {
-  color: #07B1FC;
+  color: #CAA56E;
 }
 
 .title {
@@ -433,7 +433,7 @@ footer .links a:hover {
   bottom: unset;
   right: unset;
   left: unset;
-  color: #07B1FC;
+  color: #CAA56E;
 }
 .swiperBtns .swiper-pagination .swiper-pagination-current {
   font-size: 30px;
@@ -457,7 +457,7 @@ footer .links a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #07B1FC;
+  color: #CAA56E;
   width: auto;
   transition: all 0.3s ease-in-out;
   z-index: 1;
@@ -492,13 +492,13 @@ footer .links a:hover {
   background-position: center;
   background-size: cover;
   width: 234px;
-  height: 507px;
+  height: 525px;
   position: relative;
 }
 @media (max-width: 768px) {
   .appImgs .swiper .swiper-slide {
     width: 175.5px;
-    height: 380px;
+    height: 395px;
   }
 }
 .appImgs .swiper .swiper-slide img {
@@ -618,7 +618,7 @@ footer .links a:hover {
   gap: 12px;
 }
 .contactUs .contactInfo .info {
-  background-color: rgba(7, 177, 252, 0.1254901961);
+  background-color: rgba(202, 165, 110, 0.1254901961);
   padding: 20px;
   border-radius: 12px;
   position: relative;
@@ -637,7 +637,7 @@ footer .links a:hover {
   color: #777;
 }
 .contactUs .contactInfo .info a:hover {
-  color: #07B1FC;
+  color: #CAA56E;
 }
 .contactUs .contactInfo .info::before {
   content: "";
@@ -687,7 +687,7 @@ textarea.inputForm {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  background-color: rgba(7, 177, 252, 0.1882352941);
+  background-color: rgba(202, 165, 110, 0.1882352941);
   display: flex;
   align-items: center;
   justify-content: center;
